@@ -1,0 +1,58 @@
+*{
+  margin: 0px;
+}
+
+.product-title-box{
+  background:rgb(156, 156, 156);
+}
+
+.product-title{
+color:rgb(170, 125, 40);
+}
+
+.image-box{
+background: rgb(85, 106, 81);
+}
+
+.productimage-properties{
+width:25%;
+}
+
+.description-box{
+  background:rgb(55, 75, 59);
+}
+
+.description-title-box{
+  background:rgb(213, 199, 238);
+}
+.description-title{
+  color: rgb(208, 136, 236);
+}
+
+.description-text-box{
+  background:rgb(16, 98, 9);
+}
+
+.description-text{
+  color:blue;
+}
+
+.feature-box{
+  background:rgb(113, 98, 97);
+}
+
+.feature-title-box{
+  background:rgb(213, 40, 142);
+}
+
+.feature-title{
+  color: rgb(49, 90, 117);
+}
+
+.feature-list-box{
+  background: rgb(19, 38, 124);
+}
+
+.feature-list{
+  color: rgb(158, 167, 106);
+}
