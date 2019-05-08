@@ -2,8 +2,14 @@
   margin: 0px;
 }
 
+body{
+  background: rgb(19, 161, 70);
+}
+
 .product-title-box{
   background:rgb(156, 156, 156);
+  margin: 10px;
+float: right;
 }
 
 .product-title{
@@ -12,37 +18,22 @@ color:rgb(170, 125, 40);
 
 .image-box{
 background: rgb(85, 106, 81);
+margin: 10px;
+float: left;
 }
 
 .productimage-properties{
 width:20%;
 }
 
-.description-box{
-  background:rgb(55, 75, 59);
-}
-
-.description-title-box{
-  background:rgb(213, 199, 238);
-}
-.description-title{
-  color: rgb(208, 136, 236);
-}
-
-.description-text-box{
-  background:rgb(47, 135, 150);
-}
-
-.description-text{
-  color:blue;
-}
-
 .feature-box{
   background:rgb(113, 98, 97);
+  float: right;
 }
 
 .feature-title-box{
   background:rgb(213, 40, 142);
+  margin: 10px;
 }
 
 .feature-title{
@@ -51,8 +42,31 @@ width:20%;
 
 .feature-list-box{
   background: rgb(19, 38, 124);
+  margin: 10px;
 }
 
 .feature-list{
   color: rgb(158, 167, 106);
+}
+
+.description-box{
+  background:rgb(55, 75, 59);
+  float: left;
+}
+
+.description-title-box{
+  background:rgb(213, 199, 238);
+  margin: 10px;
+}
+.description-title{
+  color: rgb(208, 136, 236);
+}
+
+.description-text-box{
+  background:rgb(47, 135, 150);
+  margin: 10px;
+}
+
+.description-text{
+  color:blue;
 }
