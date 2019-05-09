@@ -70,3 +70,11 @@ width:20%;
 .description-text{
   color:blue;
 }
+
+.manual-box{
+  background: rgb(234, 177, 244);
+}
+
+.manual-link{
+  color: rgb(232, 90, 124);
+}
