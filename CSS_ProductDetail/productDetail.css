@@ -10,30 +10,27 @@ body{
 .container-productoverview{
   background: rgb(235, 68, 30);
   display: flex;
-  justify-content:space-between;
 }
 
 .image-box{
 background: rgb(85, 106, 81);
 margin: 10px;
-float: left;
 }
 
 .productimage-properties{
   margin: 10px;
-width:20%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .container-textoverview{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .product-title-box{
   background:rgb(156, 156, 156);
   margin: 10px;
-float: right;
 }
 
 .product-title{
@@ -43,7 +40,6 @@ color:rgb(170, 125, 40);
 .feature-box{
   background:rgb(113, 98, 97);
   margin: 10px;
-  float: right;
 }
 
 .feature-title-box{
@@ -66,7 +62,6 @@ color:rgb(170, 125, 40);
 
 .description-box{
   background:rgb(55, 75, 59);
-  float: left;
 }
 
 .description-title-box{
