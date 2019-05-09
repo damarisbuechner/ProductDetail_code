@@ -6,6 +6,11 @@ body{
   background: rgb(19, 161, 70);
 }
 
+.container-productoverview{
+  background: rgb(235, 68, 30);
+  display: flex;
+  justify-content:space-between;
+}
 .product-title-box{
   background:rgb(156, 156, 156);
   margin: 10px;
@@ -23,11 +28,13 @@ float: left;
 }
 
 .productimage-properties{
+  margin: 10px;
 width:20%;
 }
 
 .feature-box{
   background:rgb(113, 98, 97);
+  margin: 10px;
   float: right;
 }
 
@@ -73,6 +80,7 @@ width:20%;
 
 .manual-box{
   background: rgb(234, 177, 244);
+  margin: 10px;
 }
 
 .manual-link{
