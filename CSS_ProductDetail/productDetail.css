@@ -12,15 +12,6 @@ body{
   display: flex;
   justify-content:space-between;
 }
-.product-title-box{
-  background:rgb(156, 156, 156);
-  margin: 10px;
-float: right;
-}
-
-.product-title{
-color:rgb(170, 125, 40);
-}
 
 .image-box{
 background: rgb(85, 106, 81);
@@ -31,6 +22,22 @@ float: left;
 .productimage-properties{
   margin: 10px;
 width:20%;
+}
+
+.container-textoverview{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-title-box{
+  background:rgb(156, 156, 156);
+  margin: 10px;
+float: right;
+}
+
+.product-title{
+color:rgb(170, 125, 40);
 }
 
 .feature-box{
