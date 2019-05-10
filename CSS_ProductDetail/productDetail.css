@@ -74,6 +74,7 @@ color:rgb(170, 125, 40);
 
 .description-box{
   background:rgb(55, 75, 59);
+  margin: 1rem;
   width: 60%;
 }
 
@@ -100,9 +101,20 @@ color:rgb(170, 125, 40);
 width: 40%;
 }
 
+.manual-title-box{
+  background: rgb(232, 50, 203);
+  margin: 1rem;
+}
+
 .manual-title{
   color:rgb(196, 203, 67);
 }
+
+.manual-link-box{
+  background: rgb(74, 28, 108);
+  margin: 1rem;
+}
+
 .manual-link{
   color:rgb(129, 235, 87);
 }
