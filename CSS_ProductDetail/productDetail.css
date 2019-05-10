@@ -32,7 +32,7 @@ width: 40%;
 .container-textoverview{
   display: flex;
   flex-direction: column;
-  width: 60%
+  width: 60%;
 }
 
 .product-title-box{
@@ -48,6 +48,7 @@ color:rgb(170, 125, 40);
   background:rgb(113, 98, 97);
   margin: 1rem;
 }
+
 
 .feature-title-box{
   background:rgb(213, 40, 142);
@@ -67,8 +68,13 @@ color:rgb(170, 125, 40);
   color: rgb(158, 167, 106);
 }
 
+.container-further-description{
+  display: flex;
+}
+
 .description-box{
   background:rgb(55, 75, 59);
+  width: 60%;
 }
 
 .description-title-box{
@@ -90,8 +96,13 @@ color:rgb(170, 125, 40);
 
 .manual-box{
   background: rgb(234, 177, 244);
-  margin: 1rem
+  margin: 1rem;
+width: 40%;
+}
 
+.manual-title{
+  color:rgb(196, 203, 67);
+}
 .manual-link{
-  color: rgb(232, 90, 124);
+  color:rgb(129, 235, 87);
 }
