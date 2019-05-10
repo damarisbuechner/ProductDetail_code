@@ -1,6 +1,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  font-family: 'Dosis', sans-serif;
 }
 
 body{
@@ -14,50 +15,58 @@ body{
 
 .image-box{
 background: rgb(85, 106, 81);
-margin: 10px;
+margin: 1rem;
+flex-grow: 1;
 }
 
 .productimage-properties{
-  margin: 10px;
+  margin: 1rem;
   max-width: 100%;
   max-height: 100%;
 }
 
-.container-textoverview{
+/* .container-textoverview{
   display: flex;
   flex-direction: column;
-}
+} */
 
 .product-title-box{
   background:rgb(156, 156, 156);
-  margin: 10px;
+  margin: 1rem;
+  flex-grow: 1;
 }
 
 .product-title{
 color:rgb(170, 125, 40);
+flex-grow: 1;
 }
 
 .feature-box{
   background:rgb(113, 98, 97);
-  margin: 10px;
+  margin: 1rem;
+  flex-grow: 1;
 }
 
 .feature-title-box{
   background:rgb(213, 40, 142);
-  margin: 10px;
+  margin: 1rem;
+  flex-grow: 1;
 }
 
 .feature-title{
   color: rgb(49, 90, 117);
+  flex-grow: 1;
 }
 
 .feature-list-box{
   background: rgb(19, 38, 124);
-  margin: 10px;
+  margin: 1rem;
+  flex-grow: 1;
 }
 
 .feature-list{
   color: rgb(158, 167, 106);
+  flex-grow: 1;
 }
 
 .description-box{
@@ -74,7 +83,7 @@ color:rgb(170, 125, 40);
 
 .description-text-box{
   background:rgb(47, 135, 150);
-  margin: 10px;
+  margin: 1rem;
 }
 
 .description-text{
@@ -83,8 +92,7 @@ color:rgb(170, 125, 40);
 
 .manual-box{
   background: rgb(234, 177, 244);
-  margin: 10px;
-}
+  margin: 1rem
 
 .manual-link{
   color: rgb(232, 90, 124);
