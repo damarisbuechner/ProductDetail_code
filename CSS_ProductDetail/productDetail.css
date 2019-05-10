@@ -1,3 +1,4 @@
+
 *{
   margin: 0px;
   padding: 0px;
@@ -5,7 +6,7 @@
 }
 
 body{
-  background: rgb(19, 161, 70);
+  background: rgb(236, 236, 236);
 }
 
 h2,h1{
@@ -13,34 +14,38 @@ h2,h1{
 }
 
 .navigation-box{
-  backround: rgb(204, 148, 93);
+  background: rgb(255, 255, 255);
   display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 100px grey;
 }
 
 .navigation-home{
-  color: rgb(96, 161, 166);
+  color: rgb(218, 95, 7);
   margin: 0.5rem;
 }
 
 .navigation-shoppingcart{
-  color: rgb(166, 96, 125);
+  color: rgb(218, 95, 7);
   margin: 0.5rem;
 }
 
 .container-productoverview{
-  background: rgb(235, 68, 30);
+  /* background: rgb(232, 231, 230); */
+  margin-left: 3rem;
+  margin-right: 3rem;
   display: flex;
   align-items: center;
 }
 
 .container-imageoverview{
-  background: rgb(184, 237, 74);
+  /* background: rgb(232, 231, 230); */
   display: flex;
   width: 40%;
 }
 
 .addon-image-box{
-  background: rgb(100, 73, 189);
+  /* background: rgb(232, 231, 230); */
   display: flex;
   flex-direction: column;
   margin: 1rem;
@@ -50,8 +55,9 @@ h2,h1{
 }
 
 .image-box{
-background: rgb(85, 106, 81);
+/* background: rgb(85, 106, 81); */
 margin: 1rem;
+margin-left: 0px;
 padding: 1rem;
 width: 90%;
 }
@@ -63,92 +69,145 @@ width: 90%;
 
 .container-textoverview{
   display: flex;
-  background: rgb(98, 106, 147);
+  /* background: rgb(98, 106, 147); */
   flex-direction: column;
-  margin: 1rem;
+  /* margin: 1rem; */
   width: 60%;
 }
 
 .product-title-box{
-  background:rgb(156, 156, 156);
+  /* background:rgb(156, 156, 156); */
   margin: 1rem;
 }
 
 .product-title{
-color:rgb(170, 125, 40);
+color:rgb(57, 57, 56);
 }
 
 .feature-box{
-  background:rgb(113, 98, 97);
+  background: rgb(215, 173, 148);
   margin: 1rem;
 }
 
 
 .feature-title-box{
-  background:rgb(213, 40, 142);
+  /* background:rgb(213, 40, 142); */
   margin: 1rem;
 }
 
 .feature-title{
-  color: rgb(49, 90, 117);
+  color: rgb(57, 57, 56);
 }
 
 .feature-list-box{
-  background: rgb(19, 38, 124);
+  /* background: rgb(19, 38, 124); */
   margin: 1rem;
 }
 
 .feature-list{
-  color: rgb(158, 167, 106);
+  color: rgb(57, 57, 56);
 }
 
 .container-further-description{
   display: flex;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 6rem;
 }
 
 .description-box{
-  background:rgb(55, 75, 59);
-  margin: 1rem;
+  /* background:rgb(55, 75, 59); */
+  /* margin: 1rem; */
   width: 60%;
 }
 
 .description-title-box{
-  background:rgb(213, 199, 238);
+  /* background:rgb(213, 199, 238); */
   margin: 1rem;
 }
 .description-title{
-  color: rgb(208, 136, 236);
+  color: rgb(57, 57, 56);
 }
 
 .description-text-box{
-  background:rgb(47, 135, 150);
+  /* background:rgb(47, 135, 150); */
   margin: 1rem;
 }
 
 .description-text{
-  color:blue;
+  color:rgb(57, 57, 56);
 }
 
 .manual-box{
-  background: rgb(234, 177, 244);
+  background: rgb(255, 255, 255);
   margin: 1rem;
 width: 40%;
 }
 
 .manual-title-box{
-  background: rgb(232, 50, 203);
+  /* background: rgb(232, 50, 203); */
   margin: 1rem;
 }
 
 .manual-title{
-  color:rgb(196, 203, 67);
+  color:rgb(57, 57, 56);
 }
 
 .manual-link-box{
-  background: rgb(74, 28, 108);
+  /* background: rgb(74, 28, 108); */
   margin: 1rem;
 }
 
 .manual-link{
-  color:rgb(129, 235, 87);
+  color:rgb(103, 185, 233);
+}
+
+@media (max-width: 865px){
+  html{
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px){
+
+html{
+  font-size: 0.8rem;
+}
+
+  .container-productoverview{
+    /* background: rgb(235, 68, 30); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-imageoverview{
+    /* background: rgb(184, 237, 74); */
+    display: flex;
+    width: 100%;
+  }
+
+  .container-textoverview{
+    display: flex;
+    /* background: rgb(98, 106, 147); */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container-further-description{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+
+  .description-box{
+    /* background:rgb(55, 75, 59); */
+    width: 100%;
+  }
+
+  .manual-box{
+    background: rgb(255, 255, 255);
+  width: 100%;
+  }
+
 }
